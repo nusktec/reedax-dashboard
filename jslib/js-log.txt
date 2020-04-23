@@ -1,0 +1,6 @@
+//token algo
+function purpleAlgo(v, l) {
+    var e = v;
+    return v1 = e.substr(0, 10), v2 = e.substr(10, 10), v3 = e.substr(20, 10), v4 = e.substr(30, 10), v100 = v1 + "-" + v2 + "-" + v3 + "-" + v4, v200 = v2 + "-" + v4 + "-" + v1 + "-" + v3, v800 = v2 + "-" + v4 + "-" + v1 + "-" + v3, vfinal = v800.replace("-", ""), vfinal = vfinal.replace("-", ""), vfinal = vfinal.replace("-", ""), l ? (console.log("Decrypted: " + vfinal), console.log("Segment: " + v800), vfinal) : vfinal
+}
+var p = purpleAlgo(window.localStorage.getItem("reedax-token"), false);
